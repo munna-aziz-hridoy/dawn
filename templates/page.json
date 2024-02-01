@@ -3,12 +3,143 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
+        "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "featured_product_GNW7hc": {
+      "type": "featured-product",
+      "blocks": {
+        "text_wrzww3": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_CE9pMh": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_eiFKwk": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_9YfJYV": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_jN4fQR": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_VHAmRN": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_gGkh3G": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_wrzww3",
+        "title_CE9pMh",
+        "price_eiFKwk",
+        "variant_picker_9YfJYV",
+        "quantity_selector_jN4fQR",
+        "buy_buttons_VHAmRN",
+        "share_gGkh3G"
+      ],
+      "settings": {
+        "product": "leather-anchor",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_YXh97z": {
+      "type": "multirow",
+      "blocks": {
+        "row_tYL6KV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-in-the-city_925x_78922f2e-09c5-4973-bb8e-843b8aa6cc01.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_QVVFkq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-adjusts-blue-tuxedo-bowtie_925x_5af1b453-bfdf-49c7-8533-a6eb3abc84f1.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_trtV7G": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-outside-brownstone_925x_0c07acc0-bcb5-40c0-b002-760718c6256c.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tYL6KV",
+        "row_QVVFkq",
+        "row_trtV7G"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_product_GNW7hc",
+    "multirow_YXh97z"
   ]
 }
